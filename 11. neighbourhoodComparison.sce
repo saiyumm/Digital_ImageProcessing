@@ -1,8 +1,8 @@
 //effect of the size of neighborhood on the result of processing
 
-I = imread('man.jpg');
+a = imread('man.jpg');
 
-[m,n]=size(I);
+[m,n]=size(a);
 
 for i=2:m-1
     for j=2:n-1
